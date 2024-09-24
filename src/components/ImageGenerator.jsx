@@ -13,7 +13,9 @@ const ImageGenerator = () => {
     if (inputRef.current.value === "") {
       return 0;
     }
+
     setLoading(true);
+    
     try {
       console.log(import.meta.env.VITE_OPENAI_API_KEY);
       const response = await fetch(
