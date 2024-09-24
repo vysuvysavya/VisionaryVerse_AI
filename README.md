@@ -1,4 +1,4 @@
-# AI Image Generator with React.js and OpenAI DALL·E 3
+# VisionaryVerse is a  AI Image Generator with React.js and OpenAI DALL·E 3
 
 ## Overview
 
