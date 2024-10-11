@@ -27,6 +27,7 @@ const ImageGenerator = () => {
             Authorization: `Bearer ${import.meta.env.VITE_OPENAI_API_KEY}`,
           },
           body: JSON.stringify({
+            model : "dall-e-3",
             prompt: inputRef.current.value,
             n: 1,
             size: "256x256",
